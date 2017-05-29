@@ -2,17 +2,22 @@
 
 def accept_input():
     while 1:
-        a = input("\nPlease enter numerical value for variable a : ")
-        if not isinstance(a, (int, float)):
-            print("Please enter a valid number as variable")
+        try:
+            a = float(input("\nPlease enter numerical value for variable a : "))
+        except ValueError:
+            print("Not an number!")
+            continue
         else:
             break
     while 1:
-        b = input("\nPlease enter numerical value for variable a : ")
-        if not isinstance(b, (int, float)):
-            print("Please enter a valid number as variable")
+        try:
+            b = float(input("\nPlease enter numerical value for variable b : "))
+        except ValueError:
+            print("Not an number!")
+            continue
         else:
             break
+
 
     return a, b
 
