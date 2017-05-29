@@ -1,0 +1,12 @@
+
+
+************************ DAY 1 ************************
+1) simple calculator
+    - using if-else
+    - using functions
+    - using classes
+2) fibonacci in range
+    - using while,for loop
+    - using function
+3) prime number in range
+4) palindrome
